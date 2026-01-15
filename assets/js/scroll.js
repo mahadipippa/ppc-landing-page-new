@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   verticalCards.forEach((verticalCard, index) => {
     if (index !== 0) {
       gsap.set(verticalCard, {
-        yPercent: 115,
+        yPercent: 200,
       });
     }
   });
@@ -148,7 +148,7 @@ window.addEventListener("load", () => {
         start: "top 20%",
         endTrigger: blocks[blocks.length - 1],
         end: "bottom 65%",
-        scrub: true,
+        scrub: 3,
         // markers: true,
         invalidateOnRefresh: true,
       },

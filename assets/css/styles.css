@@ -82,7 +82,8 @@ main{
 
 .hero-container {
   width: 100%;
-  background: linear-gradient(to bottom, #1f3c5a 12%, #184f88 36%, #121921 80%, #121921 90%, #121921 100%);
+  /* background: linear-gradient(to bottom, #1f3c5a 12%, #184f88 36%, #121921 80%, #121921 90%, #121921 100%); */
+    background: linear-gradient(to bottom, #1f3c5a 0%, #224f79 25%, #215a95 40%, #295789 55%, #121921 85%, #121921 100%);
 }
 
 .hero-body {
@@ -140,7 +141,7 @@ main{
 }
 
 .hero-1 p {
-  color: rgb(182, 181, 181);
+  color: #ffffff;
   opacity: 0.9;
   font-size: clamp(10px, 3vw, 1rem);
   font-weight: 400;
@@ -304,7 +305,7 @@ main{
 }
 
 .item-list-content .revenue-icon h1 {
-  font-size: clamp(18px, 2.5vw, 70px);
+  font-size: clamp(18px, 4vw, 70px);
   font-weight: 700;
   font-family: sans-serif;
   background: linear-gradient(to bottom, #41d0dd 0%, #41d0dd 40%, #4298ff 60%, #4298ff 100%);
@@ -1730,7 +1731,8 @@ main{
   }
 
   .case-study-container-img .case-study-img {
-      display: block;
+    display: block;
+    height: auto;
   }
 
   .fake-review {
